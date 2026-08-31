@@ -1,0 +1,57 @@
+# Descripción del Algoritmo de Control de Ventas y Comisiones
+
+Este algoritmo automatiza el registro de productos vendidos, calcula el monto total acumulado de las ventas y determina la comisión económica que le corresponde a un vendedor en base a dos porcentajes condicionales.
+
+---
+
+### Funcionamiento Paso a Paso
+
+1. **Captura Inicial**: El programa solicita el nombre y el precio del primer producto vendido. Luego, pregunta al usuario si este es el último producto disponible para registrar.
+2. **Ciclo de Acumulación**: Si el usuario responde que "no" es el último producto, el algoritmo inicia un bucle repetitivo (`mientras`). Dentro de este bucle se solicita reiteradamente el nombre y el precio de los siguientes productos (`pre2`), sumando cada nuevo valor al precio acumulado original (`pre`) y mostrando subtotales parciales.
+3. **Cierre del Ciclo**: El bucle se rompe en el momento en que el usuario responde con cualquier palabra distinta a "no" (por ejemplo, "si") ante la pregunta de confirmación.
+4. **Cálculo de la Comisión**: El sistema transfiere el acumulado a la variable `precitotal` y evalúa el monto mediante una estructura condicional (`si-entonces-sino`) bajo el siguiente criterio:
+   * Si las ventas totales superan los 50,000, se aplica una comisión del 7% (`precitotal * 0.07`).
+   * Si las ventas totales son menores o iguales a 50,000, se aplica una comisión del 5% (`precitotal * 0.05`).
+5. **Salida de Datos**: El algoritmo imprime en la pantalla del usuario el valor final de la comisión calculada y el costo total de todos los productos sumados.
+
+---
+
+### Variables Utilizadas
+
+* **nombre**: Almacena temporalmente el texto con el nombre del producto vendido.
+* **pre**: Actúa inicialmente como el primer precio ingresado y posteriormente funciona como el acumulador del dinero total.
+* **pre2**: Guarda el precio de los productos adicionales que se ingresan dentro del bucle.
+* **resp**: Almacena la respuesta del usuario ("no" u otra) para decidir si el ciclo de ingresos debe continuar.
+* **precitotal**: Almacena la suma final de los precios después de terminar el ciclo.
+* **comicion**: Guarda el resultado del porcentaje calculado para el pago del vendedor.
+Usa el código con precaución.
+
+
+
+Algoritmo sin_titulo
+	Escribir "nombre del producto que vendio"
+	leer nombre
+	Escribir "cual es el precio del producto?"
+	leer pre
+	Escribir "es el ultimo producto?"
+	leer resp
+	mientras resp = "no" Hacer
+		Escribir "nombre del producto que vendio"
+		leer nombre
+		Escribir "cual es el precio del producto?"
+		leer pre2
+		pre = pre + pre2
+		Escribir "su suma es de: " pre
+		Escribir "es el ultimo producto?"
+		leer resp
+	FinMientras
+	precitotal = pre
+	si precitotal > 50000 Entonces
+		comicion = precitotal * 0.07
+	SiNo
+		comicion = precitotal * 0.05
+	FinSi
+	Escribir "su comicion es de: " comicion
+ 	Escribir "el precio total es de: " precitotal
+FinAlgoritmo
+describe que hace este algoritmo con lenguaje markdown para copiar y pegar sin emojis
