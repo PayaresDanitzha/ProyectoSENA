@@ -1,0 +1,7 @@
+Algoritmo sin_titulo
+	Escribir "digite su ano de nacimiento"
+	Leer ano
+    edad = 2026 - 2002 
+	Escribir "su edad es de:" edad
+
+FinAlgoritmo
