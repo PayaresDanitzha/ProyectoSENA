@@ -39,3 +39,31 @@ El programa simula el proceso de recolección de datos demográficos en un edifi
 
 ---
 
+## 4. Código Fuente Original (`PSeInt`)
+
+```pseint
+Algoritmo censo
+	//censo que tiene 10 departamentos. si no hay nadie, se coloca un 0
+	// se pregunta cantidad de mayores de edad y menores de edad
+	Escribir "Se va a realizar un censo en el edificio"
+	Escribir "------------------"
+	Para i<-1 Hasta 10 Hacer
+		Escribir "En el departamento " i ", cuantos mayores de edad hay? y Cuantos menores de edad hay?"
+		Leer s, m
+		si s > 0 Entonces
+			mayores <- mayores + s
+		FinSi
+		si m > 0 Entonces
+			menores <- menores + m 
+		FinSi
+	Fin Para
+	
+	total <- mayores + menores
+	Escribir "En el edificio viven " total " personas"
+	si mayores > menores Entonces
+		Escribir "Viven m?s personas mayores y son " mayores
+	SiNo
+		Escribir "Viven m?s personas menores y son " menores
+	FinSi
+FinAlgoritmo
+```
