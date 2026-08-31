@@ -36,3 +36,28 @@ El programa solicita al usuario la cantidad total de artículos a registrar. Pos
 
 ---
 
+## 4. Código Fuente Original (`PSeInt`)
+
+```pseint
+Algoritmo cicloMayor
+	// Ciclo para leer el precio de N artículos y mostrar el precio mayor.
+	Escribir "----- ¿Cuántos artículos desea registrar? -----"
+	Leer articulos
+	
+	Escribir "Precio del 1er artículo:"
+	Leer maximo
+	
+	Para i <- 2 Hasta articulos Hacer
+		Escribir "Precio del ", i, "° artículo:"
+		Leer precio
+			
+		Si precio > maximo Entonces
+			maximo <- precio
+		Fin Si
+	Fin Para
+	
+	Escribir "Se registraron ", articulos, " artículos."
+	Escribir "El precio mayor es: ", maximo
+
+FinAlgoritmo
+```
