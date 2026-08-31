@@ -1,0 +1,65 @@
+# Descripción del Algoritmo de Censo
+
+Este algoritmo en Pseudocódigo realiza el censo de los habitantes de un edificio compuesto por 10 departamentos para registrar, contar y clasificar a las personas según su edad.
+
+## Proceso de Ejecución
+
+1. **Ciclo de departamentos**: El programa inicia un bucle principal que se repite 10 veces, simulando la recolección de datos en 10 departamentos.
+2. **Ingreso de integrantes**: En cada departamento se solicita ingresar la cantidad de personas que viven allí. Si el número ingresado es 0, el sistema notifica que el departamento está vacío.
+3. **Ciclo de edades**: Si el departamento tiene habitantes, se activa un bucle secundario que se ejecuta tantas veces como integrantes tenga la familia. Dentro de este bucle se solicita la edad de cada persona.
+4. **Conteo y clasificación**: 
+   * Las personas con más de 18 años se acumulan en el contador de mayores de edad.
+   * Las personas con 18 años o menos se acumulan en el contador de menores de edad.
+
+## Resultados Finales
+
+Una vez consultados los 10 departamentos, el algoritmo procesa los datos acumulados y muestra en pantalla:
+
+* Un mensaje determinando si en el edificio predominan los mayores de edad o los menores de edad.
+* La cantidad total de personas que habitan en todo el edificio.
+* El desglose total de personas mayores de edad.
+* El desglose total de personas menores de edad.
+
+## Errores de Lógica Detectados
+
+* **Condición de igualdad inaccesible**: La instrucción que verifica si hay la misma cantidad de mayores y menores de edad está anidada dentro de la condición que asume que hay más mayores. Por lo tanto, nunca se ejecutará.
+* **Criterio de mayoría de edad**: La condición utilizada es `edad > 18`. Esto clasifica erróneamente a los jóvenes de 18 años exactos como menores de edad. La condición estándar debería ser `edad >= 18`.
+* **Variables sin uso**: Las variables `contper` y `contcero` se inicializan al principio, pero `contcero` nunca incrementa su valor ni se utiliza en el resto del proceso.
+
+
+
+Algoritmo censo
+	contadormayores = 0 
+	contadormenores = 0
+	contper = 0
+	contcero = 0
+	Para A = 1 hasta 10 con paso 1 hacer 
+		Escribir "cuantos integrantes hay en la famiia?"
+		leer num
+		si num = 0 Entonces
+		Escribir "no hay personas en este deparamento"
+		FinSi
+		para i = 1 hasta num con paso 1 Hacer
+			Escribir "cual es tu edad?"
+			leer edad
+			si edad > 18 Entonces
+				contadormayores = contadormayores + 1
+			SiNo
+				contadormenores = contadormenores + 1
+			FinSi
+		FinPara
+	FinPara
+		si contadormayores > contadormenores Entonces
+			Escribir "hay mas personas mayores de edad, y son: " contadormayores
+			si contadormayores = contadormenores Entonces
+				Escribir "hay la misma cantidad de menores de edad y mayores de edad en el edificio"
+			FinSi
+		SiNo
+			Escribir "hay mas menores de edad en el edificio, y hay: " contadormenores
+		FinSi
+		contper = contadormayores + contadormenores
+		Escribir "en el edificio hay: " contper " personas"
+		Escribir "en el edificio hay: " contadormayores " mayores de edad"
+		Escribir "en el edificio hay: " contadormenores " menores de edad"
+FinAlgoritmo
+describe con markcdaown que es lo que hace este algoritmo sin emojis para copiar y pegar
