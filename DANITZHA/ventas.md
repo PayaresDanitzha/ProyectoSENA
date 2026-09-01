@@ -48,3 +48,61 @@ El programa simula una caja registradora o punto de venta interactivo. Permite s
 * **Validación Condicional de Respuesta:** Al incluir la sentencia `Si respues <> "s" Y respues <> "n" Entonces` dentro del ciclo `Repetir`, se elimina el falso mensaje de error cuando el usuario ingresa correctamente `"s"` o `"n"` en el primer intento.
 
 ---
+
+## 4. Código Fuente Original (`PSeInt`)
+
+```pseint
+Algoritmo ventas
+	comision <- 0
+	venta <- 0
+	minimo <- 50000
+	counter <- 0
+	
+	respues <- "s"
+	
+	Mientras respues = "s" Hacer
+		Escribir "¿Qué desea comprar hoy?"
+		Escribir "1. Arroz $4450"
+		Escribir "2. Leche $6530"
+		Escribir "3. Pastel $9500"
+		Escribir "Elija (1-3)"
+		Leer compra
+		
+		Si compra = 1 Entonces
+			venta <- venta + 4450
+		SiNo
+			Si compra = 2 Entonces
+				venta <- venta + 6530
+			SiNo
+				Si compra = 3 Entonces
+					venta <- venta + 9500
+				FinSi
+			FinSi
+		FinSi
+		
+		Escribir "------ Hasta ahora la venta va por: $", venta
+		
+		Si venta > minimo Entonces
+			comision <- venta * 0.07
+		SiNo
+			comision <- venta * 0.05
+		FinSi
+		
+		Escribir "¿Desea comprar algo más? s/n"
+		Leer respues
+		
+		Repetir
+			Si respues <> "s" Y respues <> "n" Entonces
+				Escribir "== Respuesta inválida =="
+				Escribir "¿Desea comprar algo más? s/n"
+				Leer respues
+			FinSi
+		Hasta Que respues = "s" O respues = "n"
+		
+		counter <- counter + 1
+	FinMientras
+	
+	Escribir "El vendedor hizo en total ", counter, " ventas"
+	Escribir "La comisión es de: $", comision
+FinAlgoritmo
+```
