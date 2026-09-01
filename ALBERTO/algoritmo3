@@ -31,4 +31,3 @@ Algoritmo area_de_cuadrado
 	area = (base * altura)
 	escribir " area del cuadrado seria " area
 FinAlgoritmo
-has este tambien

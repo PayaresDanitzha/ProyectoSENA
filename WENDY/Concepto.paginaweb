@@ -1,0 +1,49 @@
+## ¿Que es una pagina web? 
+Una página web, página electrónica o página digital es un documento de carácter multimediático, es decir, capaz de incluir audio, video, texto y sus combinaciones, que presenta su información de manera organizada y se encuentra alojado en internet. Se trata del formato básico de contenidos en la World Wide Web (WWW).
+
+Como otros documentos electrónicos, las páginas web se construyen usando algún lenguaje de marcado, como HTML o XHTML. Gracias a ello, no solo muestran la información de manera organizada y dinámica en un navegador web, sino que permiten al usuario saltar hacia otros contenidos en línea a través de hipervínculos o links, así como descargar datos directamente a su computadora.
+
+## Elementos de una pagina web 
+Si bien las páginas web pueden ser muy distintas unas de otras dependiendo de su propósito, en general todas se componen de los siguientes elementos:
+
+- Encabezado (header). Es la franja inicial de la página web, donde se encuentran el título, el logotipo y otras señales de identificación visual. También puede hallarse aquí el menú de navegación, que contiene vínculos al resto de las páginas web que componen el sitio, o una herramienta de búsqueda que conduzca al usuario directamente al contenido que necesita.
+
+- Cuerpo o contenido (body). Es la franja intermedia de la página web y la más importante, pues allí se encuentra el grueso del contenido, que puede consistir en texto, imágenes, videos o combinaciones de los tres. Esta sección suele estar acompañada de barras de desplazamiento, para que el usuario pueda moverse dentro de la página.
+
+- Pie (footing). Es la franja inferior de la página web, donde suelen hallarse aspectos tangenciales a la navegación, como son las políticas de la empresa, el vínculo a la página de contacto, la identificación de sus desarrolladores o información semejante.
+
+## ¿Para que sirve una pagina web?
+La tarea fundamental de toda página web es brindar al usuario cierta información y permitirle llevar a cabo diferentes trámites y acciones en línea. Algunas páginas tienen un espíritu más documental o educativo, mientras que otras son más interactivas, ya que ofrecen videojuegos, compras en línea, servicios de citas, trámites institucionales, entre otros.
+
+Por otro lado, las páginas web son el instrumento a través del cual una empresa, organización o particular puede tener presencia en internet. En ese sentido, se intenta que un portal sea fácil de encontrar, ameno e intuitivo en su diseño, para garantizar la permanencia del usuario y contribuir con la fidelización de la clientela.
+
+## Tipos de pagina web
+Existen dos criterios principales para la clasificación de las páginas web: según el modo en que se genera su contenido y según la naturaleza de ese contenido.
+
+# Según el modo en que se genera su contenido
+Se pueden distinguir dos tipos de páginas web según el modo en que se genera su contenido:
+
+- Páginas web estáticas. Son aquellas que operan mediante la descarga de un fichero programado en código HTML. Allí están todas las instrucciones para que el navegador reconstruya la página web, accediendo a las ubicaciones de sus elementos y siguiendo un orden preconcebido, rígido, que no permite demasiada interacción con el usuario. Este tipo de páginas suelen ser meramente informativas, documentales o institucionales.
+
+- Páginas web dinámicas. Son aquellas que se generan en el momento mismo del acceso del usuario, empleando para ello algún lenguaje interpretado (como el PHP). Este les permite recibir solicitudes del usuario, procesarlas en bases de datos y ofrecer una respuesta acorde a sus requerimientos. Se trata de páginas web versátiles y adaptables.
+
+# Según la naturaleza de su contenido
+Dada la inmensa variedad de funciones y propósitos que pueden tener las páginas web, resulta complejo clasificarlas de acuerdo a su contenido, pues se corre el riesgo de empezar una lista inacabable. Aun así, las principales páginas web en esta clasificación son:
+
+- Páginas institucionales. Son aquellas que pertenecen al Estado o a una organización internacional. Permiten al usuario obtener información sobre sus labores, contactar a la organización o realizar algún tipo de trámite en línea. Por ejemplo: la página web de la Unesco o la del Ministerio de Salud de Argentina.
+
+- Páginas de comercio electrónico. Son aquellas que ofrecen al usuario la posibilidad de vender y comprar bienes a otros usuarios, actuando como mediadoras entre las partes y garantes de transparencia en el intercambio. Por ejemplo: Amazon o Mercado Libre.
+
+- Páginas de servicios en línea. Son aquellas que ofrecen al usuario diferentes servicios digitales, como portales de citas, contenido audiovisual en streaming, alojamiento de documentos en línea, correo electrónico, entre otros. Pueden ser de pago o gratuitos, es decir, sostenidos mediante publicidad. Por ejemplo: Netflix, Gmail o Dropbox.
+
+- Archivos y repositorios. Son aquellas que permiten al usuario recuperar o visualizar documentos y fuentes históricas digitalizados y almacenados en una base de datos. Estas fuentes pueden ser fotografías, escritos, emisiones de televisión, recortes de prensa, entre muchos otros. Por ejemplo: Internet Archive o la Mediateca del INAH de México.
+
+- Páginas de videojuegos. Son aquellas que ofrecen al usuario la posibilidad de distraerse compitiendo en línea contra otros jugadores o contra la inteligencia artificial. Por ejemplo: Poki o World of Warcraft.
+
+- Enciclopedias digitales. Son aquellas que ofrecen al usuario información educativa o divulgativa organizada por tema, para que pueda buscar directamente aquello sobre lo que necesita aprender. Por ejemplo: la Enciclopedia Británica o la Enciclopedia de Humanidades.
+
+- Portales de noticias. Son aquellas que brindan al usuario noticias, reportajes e información periodística de interés, ya sea que pertenezcan a un diario o corporación periodística, o a pequeños actores independientes. Por ejemplo: el diario argentino Clarín o la cadena estadounidense Univisión.
+
+- Redes sociales. Son aquellas que ofrecen al usuario la posibilidad de integrar alguna comunidad virtual compuesta por otros usuarios con sus mismas pasiones o intereses. Las redes sociales constituyen el principal mecanismo de socialización del mundo globalizado. Por ejemplo: Facebook o Instagram.
+
+- Buscadores web. Son aquellas que permiten al usuario dar con otras páginas web disponibles en internet a partir de una palabra o un conjunto de palabras clave. Es decir, actúan como índices personalizados de la información en la red. Por ejemplo: Google o DuckDuckGo.
