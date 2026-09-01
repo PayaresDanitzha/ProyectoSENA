@@ -1,4 +1,4 @@
-  Algoritmo notas_final 
+ Algoritmo notas_final 
 	contador = 0
 	Escribir " 4 notas "
 	para b = 0 Hasta 3 Con Paso 1 hacer 
