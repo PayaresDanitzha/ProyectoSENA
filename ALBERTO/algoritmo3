@@ -1,0 +1,33 @@
+# Descripción del Algoritmo de Cálculo de Área de un Cuadrado
+
+Este algoritmo calcula la superficie o área de un cuadrilátero a partir de los datos de su base y su altura ingresados por el usuario. Aunque lleva por nombre "area_de_cuadrado", su fórmula matemática permite obtener el área tanto de cuadrados como de rectángulos.
+
+---
+
+### Funcionamiento Paso a Paso
+
+1. **Solicitud de Altura**: El programa pide al usuario que ingrese la medida de la altura de la figura geométrica.
+2. **Lectura de Altura**: El sistema guarda el valor introducido en la variable `altura`.
+3. **Solicitud de Base**: El programa pide al usuario que ingrese la medida de la base de la figura geométrica.
+4. **Lectura de Base**: El sistema guarda el valor introducido en la variable `base`.
+5. **Cálculo Matemático**: El algoritmo multiplica la base por la altura (`base * altura`) y asigna el resultado a la variable `area`.
+6. **Salida de Resultados**: El programa imprime en la pantalla un mensaje final que muestra el valor calculado de la superficie.
+
+---
+
+### Variables Utilizadas
+
+* **altura**: Almacena el valor numérico de la dimensión vertical de la figura.
+* **base**: Almacena el valor numérico de la dimensión horizontal de la figura.
+* **area**: Guarda el resultado de la multiplicación, que representa la superficie total de la figura en unidades cuadradas.
+
+
+
+Algoritmo area_de_cuadrado
+	escribir "cual es su altura?"
+	leer altura
+	escribir "cual es su base?"
+	leer base
+	area = (base * altura)
+	escribir " area del cuadrado seria " area
+FinAlgoritmo
