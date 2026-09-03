@@ -23,4 +23,25 @@ definir num, j, d, i Como Entero
 	escribir "hay", primo , "primos "
 FinProceso
  
+ ## Ejercicio 2 de algoritmos
+ 
+ - Programa para saber si un numero es menor, igual o mayor que otro 
+
+ algoritmo
+ Definir n1, n2 Como Entero
+	escribir " Digite el primer numero"
+	leer n1
+	Escribir "Digite el segundo numero"
+	Leer n2
+	si n1 > n2  Entonces
+		escribir n1 "es mayor que:" n2
+	FinSi
+	si n2 > n1 entonces 
+		escribir n2 "es mayor que:" n1
+	FinSi
+	si n1 = n2 Entonces
+		escribir "Son iguales"
+	FinSi
+	
+
 
