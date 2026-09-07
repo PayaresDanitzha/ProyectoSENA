@@ -59,4 +59,29 @@ definir num como entero
 	escribir "el numero tiene ",  contador ,  " digitos"
 	FinProceso
 
+## Ejercicio 4 de algoritmos 
 
+- Programa que muestre su un numero es capicua utilizando un vector de 10 componentes 
+
+algoritmo
+    Definir num como real 
+    Dimensionar num[10]
+
+para i = 0 hasta 9 con paso 1 hacer
+     escribir "Digite un numero:" i + 1 
+	 leer numm[i]
+finpara
+
+cap = verdadero 
+
+para j = 0 hasta 4 con paso 1 hacer 
+    si (num[j] = num[9-j])
+	   cap = falso 
+	finsi
+finpara
+si (cap = verdadero)
+  escribir "El numero es capicua:"
+sino
+  escribir "El numero no es capicua:"
+finsi 
+Finproceso 
