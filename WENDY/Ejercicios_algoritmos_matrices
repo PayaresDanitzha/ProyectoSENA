@@ -72,3 +72,29 @@ Algoritmo
          sum = 0 
     Finpara
 
+## Ejercicio 4 de matriz 
+
+- El mismo ejercicio de arriba pero sumando las filas 
+
+Algoritmo
+    Escribir "Digite el tamaño del arreglo"
+    Leer tam 
+    Dimension matriz(tam,tam)
+
+    Para i = 0 hasta (tam-1) con paso 1 hacer
+        Para c = 0 hasta (tam-1) con paso 1 hacer 
+          Escribir "Digite elemento de la matriz"
+          matriz(i,c) <- aleatorio(10,100)
+        finpara
+    Finpara 
+
+    Para i = 0 hasta (tam-1) con paso 1 hacer 
+        Para c = 0 hasta (tam-1) con paso 1 hacer
+          Escribir matriz(i,c) " " sin saltar 
+          sum1 = sum1 + matriz(c,i)
+
+        Finpara
+         Escribir "La suma de las filas es:" sum1
+         sum1 = 0 
+    Finpara
+ 
