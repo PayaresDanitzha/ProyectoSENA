@@ -1,0 +1,23 @@
+## Ejercicio 1 de matriz 
+
+- Programa que agrupe numeros en filas y columnas dependiendo el tamaño del arreglo que la persona indique 
+
+Algoritmo_1
+    Escribir "Digite tamaño del arreglo" 
+    leer tam 
+    Dimension matriz(tam,tam)
+
+    Para i = 0 hasta (tam-1) con paso 1 hacer 
+       Para c = 0 hasta (tam-1) con paso 1 hacer
+         Escribir "Digite elementode la matriz"
+         Leer matriz(i,c)
+        
+        finpara
+    finpara 
+
+    Para i = 0 hasta (tam-1) con paso 1 hacer 
+       Para c = 0 hasta (tam-1) con paso 1 hacer 
+         Escribir mtriz(i,c) " " sin saltar 
+        finpara
+        Escribir " " 
+    finpara
