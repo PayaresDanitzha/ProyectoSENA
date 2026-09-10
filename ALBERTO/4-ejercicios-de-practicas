@@ -42,4 +42,5 @@ pero tienen el mismo significado todos, un ejemplo de comparacion de el de como 
 es que en java escriir es (String) y en dartpad en lo mismo que java y en visual basic es (inputbox) y tambien 
 de como se concatena en java es con el simbolo + y en visual basic es con el simbolo & y en el dartpad es con el 
 simbolo +, y en java se utiliza JOptionPane para mostrar mensajes y en visual basic se utiliza msgbox y en dartpad 
-se utiliza solo print.
+se utiliza solo print y para iniciar los codigos en java se utiliza la palabra "public static void main(String[] arge)" 
+y el visual basic es "sub main" y en dartpad es solo "void main()".
