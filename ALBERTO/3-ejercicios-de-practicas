@@ -1,11 +1,20 @@
 void main () {
     string nombre = "Alberto";
     string edad = "20"
-print "nombre " + "tiene" + edad +"años"
+    print "nombre " + "tiene" + edad +"años"
 }
+
 
 
 sub prueba ()
     edad = 20
     nombre = "Alberto"
-msgbox ( nombre & "tiene" & edad & "años") 
+    msgbox ( nombre & "tiene" & edad & "años") 
+end sub 
+
+
+Sub prueba()
+   nombre = InputBox("¿cual es su nombre?")
+   edad = InputBox("¿cual es tu edad?")
+   MsgBox (nombre & " tiene " & edad)
+End Sub
