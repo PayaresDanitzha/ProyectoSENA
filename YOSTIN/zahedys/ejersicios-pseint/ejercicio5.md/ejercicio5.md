@@ -8,7 +8,7 @@ SubPrograma ()
 
     MsgBox ("YOSTIN TIENE " & x & " AÑOS")
 
-FinSubPrograma
+End subprograma
 
 SUB PROGRAMA ()
 
