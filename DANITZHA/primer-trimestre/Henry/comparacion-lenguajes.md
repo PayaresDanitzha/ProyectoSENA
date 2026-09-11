@@ -35,4 +35,12 @@ Orientación a Objetos Obligatoria: En Java no pueden existir funciones "sueltas
 
 2. Boilerplate / Estructura Verbosa: Mientras que en Dart o VBA puedes definir subrutinas directas, en Java necesitas definir la visibilidad (public), la naturaleza del método (static), el tipo de retorno (void) y los parámetros de línea de comandos (String[] args).
 
+## Resumen grafico por medio de tabla comparativa
 
+| Característica  | Java | Visual Basic (VBA) | Dart (en DartPad) |
+| -------------   |:----:| :----------------: | :---------------: |
+| **Entorno de ejecución** | Local (JVM / Consola o IDE) | Local (Integrado en Microsoft Office / Excel) | Remoto (Navegador Web via DartPad) |
+| **Declaración de Variables** | Estricta (`String name = "..."`) | Implícita o explícita (`Dim` opcional) | Estricta o inferida (`String` / `var`) |
+| **Lectura de Datos** | Interactiva (`Scanner` / `System.in`) | Interactiva (`InputBox`) | Restringida / Deshabilitada en entorno web |
+| **Salida de Datos** | Consola (`System.out.println`) | Ventana emergente (``MsgBox``) | Consola web (`print`) |
+| **Operador de Concatenación** | `+` | `&` (o +)
