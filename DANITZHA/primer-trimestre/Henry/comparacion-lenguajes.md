@@ -22,3 +22,17 @@ Java se ejecuta localmente (o en entornos locales como NetBeans, Eclipse o tu te
 Scanner teclado = new Scanner(System.in);
 ```
 
+## Salida de Datos e Impresión (Escribir)
+Cada lenguaje utiliz su propia API para mostrar resultados al usuario:
+
+* Java: Requiere acceder a la salida estándar del sistema. La sintaxis exacta es System.out.println() (para imprimir con salto de línea) o System.out.print().
+* Visual Basic: En lugar de una consola de texto, abre una ventana modal de alerta en pantalla usando MsgBox
+* Dart: Utiliza una función nativa y directa simplificada print().
+
+## Estructura del Código y Requisitos
+1.  ¿Qué tiene Java que NO tienen los otros dos?
+Orientación a Objetos Obligatoria: En Java no pueden existir funciones "sueltas". Todo código debe vivir estrictamente dentro de una class.
+
+2. Boilerplate / Estructura Verbosa: Mientras que en Dart o VBA puedes definir subrutinas directas, en Java necesitas definir la visibilidad (public), la naturaleza del método (static), el tipo de retorno (void) y los parámetros de línea de comandos (String[] args).
+
+
