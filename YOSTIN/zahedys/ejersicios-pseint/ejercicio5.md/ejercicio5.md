@@ -1,43 +1,34 @@
 
 ### Subprogram
 
-```text
-SubPrograma ()
+SubProgram ()
 
-    x <- 34
+   b = <- 34
 
-    MsgBox ("YOSTIN TIENE " & x & " AÑOS")
+    MsgBox ("YOSTIN is " & b & " YEARS OLD")
 
 End subprogram
 
-SUB PROGRAMA ()
+sub program
 
-    b = INPUTBOX("¿Cuántos años tienes?")
-
-    X = 34
-
-    MsgBox("YOSTIN TIENE " & X & " AÑOS")
-
-END SUB
-
-
-## Subprograma en Java
+void main() {
+    String b = " 34"
+    print ( " mi edad es " + b + " años ")
+}
+ 
+ end subprogram
 
 SUB PROGRAMA ()
 
     b = INPUTBOX("¿Cuántos años tienes?")
 
-    X = 34
+    b = 34
 
-    MsgBox("YOSTIN TIENE " & X & " AÑOS")
+    MsgBox("YOSTIN TIENE " & b & " AÑOS")
 
 END SUB
-```
 
 ## Código en Java
-
-```text
-import java.util.Scanner;
 
 public class Main {
 
