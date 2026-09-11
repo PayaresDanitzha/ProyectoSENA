@@ -43,4 +43,5 @@ Orientación a Objetos Obligatoria: En Java no pueden existir funciones "sueltas
 | **Declaración de Variables** | Estricta (`String name = "..."`) | Implícita o explícita (`Dim` opcional) | Estricta o inferida (`String` / `var`) |
 | **Lectura de Datos** | Interactiva (`Scanner` / `System.in`) | Interactiva (`InputBox`) | Restringida / Deshabilitada en entorno web |
 | **Salida de Datos** | Consola (`System.out.println`) | Ventana emergente (``MsgBox``) | Consola web (`print`) |
-| **Operador de Concatenación** | `+` | `&` (o +)
+| **Operador de Concatenación** | `+` | `&` (o `+`) | `+` (o interpolación `$var`) |
+| **Punto de Entrada** | Obligatorio `public static void main` | Subrutinas `Sub ... End Sub` | Función `void main()` |
