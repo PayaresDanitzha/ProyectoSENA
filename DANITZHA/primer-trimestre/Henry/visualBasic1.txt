@@ -1,0 +1,7 @@
+Sub practica()
+    age = 20
+    chica = "Danitzha"
+
+    MsgBox (chica & " tiene " & age & " años")
+End Sub
+
