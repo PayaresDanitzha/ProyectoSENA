@@ -1,0 +1,8 @@
+Algoritmo vectores_para_saber_si_Es_capicua
+Definir nume Como Entero
+	Dimension vec[10]
+	para A = 0 Hasta 9 con paso 1 Hacer
+		Escribir "digite numero: " A + 1 
+		leer n
+FinPara
+cap = Verdadero
