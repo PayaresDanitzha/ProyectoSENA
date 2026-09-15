@@ -6,4 +6,14 @@ Algoritmo sin_titulo
 	para A = 0 hasta tam - 1 con paso 1 Hacer
 	para c = 0 Hasta tam - 1 con paso 1 Hacer
 		matriz(A,c) = aleatorio (100,300)
-	
+	FinPara
+ 	FinPara
+	Para A = 0 hasta tam - 1 con paso 1 Hacer
+	para c = 0 hasta tam - 1 con paso 1 Hacer
+		Escribir matriz(A,c) "   " Sin Saltar
+		suma = suma + matriz(A,c)
+	FinPara
+	Escribir "=" suma
+	suma = 0 
+	FinPara
+FinAlgoritmo
