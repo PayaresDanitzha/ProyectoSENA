@@ -1,0 +1,9 @@
+Algoritmo sin_titulo 
+	Escribir "digite tamaño del areglo"
+	leer tam
+	Dimension matriz(tam,tam)
+	Escribir "dgite el elemento de la matriz"
+	para A = 0 hasta tam - 1 con paso 1 Hacer
+	para c = 0 Hasta tam - 1 con paso 1 Hacer
+		matriz(A,c) = aleatorio (100,300)
+	
