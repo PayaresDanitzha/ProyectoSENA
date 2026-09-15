@@ -1,0 +1,6 @@
+Algoritmo sin_titulo
+	Dimension num[10]
+	para A = 0 hasta 9 con paso 1 Hacer
+		Escribir "digite un numero"
+		leer num[A]
+	
