@@ -6,3 +6,14 @@ Definir nume Como Entero
 		leer n
 FinPara
 cap = Verdadero
+Para m = 0 hasta 4 con paso 1 Hacer
+	si (vec[A] <> vec[9 - A])
+		cap = Falso
+	FinSi
+FinPara
+si (cap = Verdadero)
+	Escribir "el numero es capicua"
+SiNo
+	Escribir "el numero no es capicua"
+FinSi
+FinAlgoritmo
