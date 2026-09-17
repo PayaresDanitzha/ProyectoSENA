@@ -1,0 +1,6 @@
+Sub programa()
+    b = InputBox("¿Como te llamas?")
+    a = InputBox("¿Cuantos años tienes?")
+    
+    MsgBox (b & " tu tienes " & a & " años")
+End Sub
