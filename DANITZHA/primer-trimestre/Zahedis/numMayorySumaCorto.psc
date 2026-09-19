@@ -21,5 +21,15 @@ Algoritmo numMayorySumaCorto
 		// 3. La suma de los dos menores es (Suma Total - Mayor)
 		sumMenores <- (a + b + c) - mayor
 		
+		// 4. Comparar la suma con el mayor
+		Si sumMenores > mayor Entonces
+			Escribir "La suma de los dos menores (", sumMenores, ") es MAYOR que el mayor (", mayor, ")"
+		SiNo
+			Si sumMenores < mayor Entonces
+				Escribir "La suma de los dos menores (", sumMenores, ") es MENOR que el mayor (", mayor, ")"
+			SiNo
+				Escribir "La suma de los dos menores (", sumMenores, ") es IGUAL al mayor (", mayor, ")"
+			FinSi
+		FinSi
 	FinSi
 FinAlgoritmo
