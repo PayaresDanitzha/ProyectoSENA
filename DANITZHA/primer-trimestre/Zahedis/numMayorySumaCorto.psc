@@ -17,5 +17,9 @@ Algoritmo numMayorySumaCorto
 		FinSi
 		
 		Escribir "El número mayor es: ", mayor
+		
+		// 3. La suma de los dos menores es (Suma Total - Mayor)
+		sumMenores <- (a + b + c) - mayor
+		
 	FinSi
 FinAlgoritmo
