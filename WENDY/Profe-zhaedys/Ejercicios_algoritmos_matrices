@@ -1,0 +1,134 @@
+## Ejercicio 1 de matriz 
+
+- Programa que agrupe numeros en filas y columnas dependiendo el tamaño del arreglo que la persona indique 
+
+Algoritmo_1
+    Escribir "Digite tamaño del arreglo" 
+    leer tam 
+    Dimension matriz(tam,tam)
+
+    Para i = 0 hasta (tam-1) con paso 1 hacer 
+       Para c = 0 hasta (tam-1) con paso 1 hacer
+         Escribir "Digite elementode la matriz"
+         Leer matriz(i,c)
+        
+        finpara
+    finpara 
+
+    Para i = 0 hasta (tam-1) con paso 1 hacer 
+       Para c = 0 hasta (tam-1) con paso 1 hacer 
+         Escribir mtriz(i,c) " " sin saltar 
+        finpara
+        Escribir " " 
+    finpara
+
+## Ejercicio 2 de matriz 
+
+- El mismo ejercicio de arriba pero con numero aletarorio 
+
+Algoritmo
+    Escribir "Digite el tamaño del arreglo"
+    Leer tam 
+    Dimension matriz(tam,tam)
+
+    Para i = 0 hasta (tam-1) con paso 1 hacer
+        Para c = 0 hasta (tam-1) con paso 1 hacer 
+          Escribir "Digite elemento de la matriz"
+          matriz(i,c) <- aleatorio(10,100)
+        finpara
+    Finpara 
+
+    Para i = 0 hasta (tam-1) con paso 1 hacer 
+        Para c = 0 hasta (tam-1) con paso 1 hacer
+          Escribir matriz(i,c) " " sin saltar 
+
+        Finpara
+         Escribir " " 
+    Finpara
+
+## Ejercicio 3 de matriz 
+
+- El mismo ejercicio pero agregando suma de las columnas 
+
+Algoritmo
+    Escribir "Digite el tamaño del arreglo"
+    Leer tam 
+    Dimension matriz(tam,tam)
+
+    Para i = 0 hasta (tam-1) con paso 1 hacer
+        Para c = 0 hasta (tam-1) con paso 1 hacer 
+          Escribir "Digite elemento de la matriz"
+          matriz(i,c) <- aleatorio(10,100)
+        finpara
+    Finpara 
+
+    Para i = 0 hasta (tam-1) con paso 1 hacer 
+        Para c = 0 hasta (tam-1) con paso 1 hacer
+          Escribir matriz(i,c) " " sin saltar 
+          sum = sum + matriz(i,c)
+
+        Finpara
+         Escribir " =  " sum
+         sum = 0 
+    Finpara
+
+## Ejercicio 4 de matriz 
+
+- El mismo ejercicio de arriba pero sumando las filas 
+
+Algoritmo
+    Escribir "Digite el tamaño del arreglo"
+    Leer tam 
+    Dimension matriz(tam,tam)
+
+    Para i = 0 hasta (tam-1) con paso 1 hacer
+        Para c = 0 hasta (tam-1) con paso 1 hacer 
+          Escribir "Digite elemento de la matriz"
+          matriz(i,c) <- aleatorio(10,100)
+        finpara
+    Finpara 
+
+    Para i = 0 hasta (tam-1) con paso 1 hacer 
+        Para c = 0 hasta (tam-1) con paso 1 hacer
+          Escribir matriz(i,c) " " sin saltar 
+          sum1 = sum1 + matriz(c,i)
+
+        Finpara
+         Escribir "La suma de las filas es:" sum1
+         sum1 = 0 
+    Finpara
+ 
+ ## Ejercicio 5 de matriz 
+
+ - El mismo ejercicio de arriba solo intercambiando los valores de columna en filas y filas en columna
+
+ Algoritmo
+    Escribir "Digite el tamaño del arreglo"
+    Leer tam 
+    Dimension matriz(tam,tam)
+
+    Para i = 0 hasta (tam-1) con paso 1 hacer
+        Para c = 0 hasta (tam-1) con paso 1 hacer 
+          Escribir "Digite elemento de la matriz"
+          matriz(i,c) <- aleatorio(10,100)
+        finpara
+    Finpara 
+
+    Para i = 0 hasta (tam-1) con paso 1 hacer 
+        Para c = 0 hasta (tam-1) con paso 1 hacer
+          Escribir matriz(i,c) " " sin saltar 
+
+        Finpara
+         Escribir " " 
+    Finpara
+    Escribir "MATRIZ ORIGINAL"
+
+    Para i = 0 hasta (tam-1) con paso 1 hacer 
+        Para c = 0 hasta (tam-1) con paso 1 hacer
+          Escribir matriz(i,c) " " sin saltar 
+        Finpara
+        Escribir " " 
+    Finpara
+    Escribir "MATRIZ SIGUIENTE"
+
+FinAlgoritmo

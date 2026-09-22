@@ -1,0 +1,46 @@
+void main () {
+    string nombre = "Alberto";
+    string edad = "20"
+    print "nombre " + "tiene" + edad +"años"
+}
+
+
+
+sub prueba ()
+    edad = 20
+    nombre = "Alberto"
+    msgbox ( nombre & "tiene" & edad & "años") 
+end sub 
+
+
+Sub prueba()
+   nombre = InputBox("¿cual es su nombre?")
+   edad = InputBox("¿cual es tu edad?")
+   MsgBox (nombre & " tiene " & edad)
+End Sub
+
+
+import javax.swing.JOptionPane;
+
+public class Prueba {
+    public static void main(String[] args) {
+        
+        String nombre = JOptionPane.showInputDialog("¿Cuál es su nombre?");
+        
+        String edad = JOptionPane.showInputDialog("¿Cuál es tu edad?");
+        
+        JOptionPane.showMessageDialog(null, nombre + " tiene " + edad);
+    }
+}
+
+
+
+
+
+las comparaciones que puedo ver en los trabajos es la manera de como se escriben los codigos,
+pero tienen el mismo significado todos, un ejemplo de comparacion de el de como se escribe en java y en visualbasic 
+es que en java escriir es (String) y en dartpad en lo mismo que java y en visual basic es (inputbox) y tambien 
+de como se concatena en java es con el simbolo + y en visual basic es con el simbolo & y en el dartpad es con el 
+simbolo +, y en java se utiliza JOptionPane para mostrar mensajes y en visual basic se utiliza msgbox y en dartpad 
+se utiliza solo print y para iniciar los codigos en java se utiliza la palabra "public static void main(String[] arge)" 
+y el visual basic es "sub main" y en dartpad es solo "void main()".

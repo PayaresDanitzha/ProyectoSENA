@@ -1,0 +1,31 @@
+Algoritmo dimensiones_decreciente_creciente
+	Dimensionar vec[10]
+	para A = 0 hasta 9 Hacer
+		Escribir "digite numero: ", A + 1
+		leer vec[A]
+	FinPara
+	creciente = Verdadero
+	decreciente = Verdadero
+	para A = 0 Hasta 8 con paso 1 Hacer
+		si vec[A] > vec[A+1]
+		creciente = Falso
+	FinSi
+	si vec[A] < vec[A+1]	
+		decreciente = Falso
+		FinSi
+	FinPara
+	si creciente = verdadero y decreciente = Falso
+		Escribir "el vector esta ordenado crecientemente"
+	SiNo
+	si	decreciente = verdadero y creciente = Falso
+		Escribir "el vector esta ordenado de manera decreciente"
+	SiNo
+		si creciente = Verdadero y decreciente = Verdadero
+			Escribir "el vector tiene numeros iguales"
+		SiNo
+			Escribir "el vector esta desordenado"
+		FinSi
+	FinSi
+FinSi
+
+FinAlgoritmo
