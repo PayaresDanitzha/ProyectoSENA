@@ -1,0 +1,9 @@
+Sub main()
+    Dim n1 As Double, n2 As Double, n3 As Double, n4 As Double, n5 As Double
+    Dim suma As Double, promedio
+    
+    MsgBox ("te daremos el promedio de tus notas, a continuacion introduzca las notas")
+    
+    n1 = CDbl(InputBox("ingrese su primera nota"))
+    n2 = CDbl(InputBox("ingrese su segunda nota"))
+  
