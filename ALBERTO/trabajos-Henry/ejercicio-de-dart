@@ -1,0 +1,9 @@
+import 'dart:io';
+
+void main(){
+    print("digite su nota numero 1");
+    String? A = stdin.readLineSync();
+    print("digite su nota numero 2");
+    String? Y = stdin.readLineSync();
+    print("digite su nota numero 3");
+    
