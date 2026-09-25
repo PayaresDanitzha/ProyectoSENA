@@ -6,4 +6,10 @@ Sub main()
     
     n1 = CDbl(InputBox("ingrese su primera nota"))
     n2 = CDbl(InputBox("ingrese su segunda nota"))
-  
+    n3 = CDbl(InputBox("ingrese su tercera nota"))
+    n4 = CDbl(InputBox("ingrese su cuarta nota"))
+    n5 = CDbl(InputBox("ingrese su quinta nota"))
+    suma = n1 + n2 + n3 + n4 + n5
+    promedio = suma / 5
+    MsgBox ("su promedio es de: " & promedio)
+End Sub
