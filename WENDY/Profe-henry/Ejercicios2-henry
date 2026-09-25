@@ -1,0 +1,19 @@
+## Ejercicio 2 en visual basic 
+
+Sub PromedioNotas()
+
+    Dim nota1 As Double, nota2 As Double, nota3 As Double, nota4 As Double, nota5 As Double
+    Dim promedio As Double
+
+    nota1 = InputBox("Ingrese la primera nota:")
+    nota2 = InputBox("Ingrese la segunda nota:")
+    nota3 = InputBox("Ingrese la tercera nota:")
+    nota4 = InputBox("Ingrese la cuarta nota:")
+    nota5 = InputBox("Ingrese la quinta nota:")
+
+    promedio = (nota1 + nota2 + nota3 + nota4 + nota5) / 5
+
+    MsgBox "El promedio de las 5 notas es: " & promedio
+
+End Sub
+
