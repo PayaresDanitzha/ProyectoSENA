@@ -4,3 +4,6 @@ nota2 = float(input("Ingrese la segunda nota: "))
 nota3 = float(input("Ingrese la tercera nota: "))
 nota4 = float(input("Ingrese la cuarta nota: "))
 nota5 = float(input("Ingrese la quinta nota: "))
+
+promedio = (nota1 + nota2 + nota3 + nota4 + nota5) / 5
+print("El promedio de las cinco notas es:", promedio)
