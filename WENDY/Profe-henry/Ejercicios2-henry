@@ -1,0 +1,58 @@
+## Ejercicio 2 en visual basic 
+
+Sub PromedioNotas()
+
+Dim nota1 As Double, nota2 As Double, nota3 As Double, nota4 As Double, nota5 As Double
+Dim promedio As Double
+
+nota1 = InputBox("Ingrese la primera nota:")
+nota2 = InputBox("Ingrese la segunda nota:")
+nota3 = InputBox("Ingrese la tercera nota:")
+nota4 = InputBox("Ingrese la cuarta nota:")
+nota5 = InputBox("Ingrese la quinta nota:")
+
+promedio = (nota1 + nota2 + nota3 + nota4 + nota5) / 5
+
+MsgBox "El promedio de las 5 notas es: " & promedio
+
+End Sub
+
+## Ejercicio 3 en Python
+
+nota1 = float(input("Ingrese la primera nota: "))
+nota2 = float(input("Ingrese la segunda nota: "))
+nota3 = float(input("Ingrese la tercera nota: "))
+nota4 = float(input("Ingrese la cuarta nota: "))
+nota5 = float(input("Ingrese la quinta nota: "))
+
+promedio = (nota1 + nota2 + nota3 + nota4 + nota5) / 5
+
+print("El promedio de las 5 notas es:", promedio)
+
+## Ejercicio 1 en Dart
+
+import 'dart:io';
+
+void main() {
+print('Ingrese la primera nota:');
+double? nota1 = double.parse(stdin.readLineSync()!);
+
+print('Ingrese la segunda nota:');
+double? nota2 = double.parse(stdin.readLineSync()!);
+
+print('Ingrese la tercera nota:');
+double? nota3 = double.parse(stdin.readLineSync()!);
+
+print('Ingrese la cuarta nota:');
+double? nota4 = double.parse(stdin.readLineSync()!);
+
+print('Ingrese la quinta nota:');
+double? nota5 = double.parse(stdin.readLineSync()!);
+
+double promedio = (nota1 + nota2 + nota3 + nota4 + nota5) / 5;
+
+print('El promedio es: $promedio');
+
+}
+
+  
