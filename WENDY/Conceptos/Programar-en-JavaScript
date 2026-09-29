@@ -62,3 +62,17 @@ Además, los métodos de arreglo como .map(), .filter() y .reduce() te permiten 
 . Dependiendo de tu entorno de destino, características más nuevas del lenguaje o del navegador pueden necesitar aún polyfills o transpilation.
 
 . Cross-site scripting (XSS) and other problems can happen when you don’t handle untrusted input or update the DOM carefully.
+
+# ¿Para que se utiliza JavaScript?
+
+- Desarrollo frontend y backend
+JavaScript ejecuta interfaces interactivas en el front-end. Se encarga de cosas como formularios, menús, modales, paneles y aplicaciones de una sola página. React, Vue y Angular son ejemplos de frameworks y bibliotecas que ayudan a los desarrolladores a construir interfaces más grandes más rápidamente.
+
+JavaScript se ejecuta a través de entornos como Node.js en el backend. Los desarrolladores lo utilizan para escribir scripts de automatización, gestionar comunicación en tiempo real, construir APIs y renderizar contenido en el servidor.
+
+Usar el mismo lenguaje en toda la pila puede facilitar el desarrollo, especialmente para equipos que construyen productos web de principio a fin.
+
+- Desarrollo de juegos y aplicaciones móviles
+JavaScript también se utiliza en juegos que se ejecutan en un navegador web. Usando tecnologías como Canvas y WebGL, los desarrolladores pueden hacer tanto juegos de JavaScript 2D simples como experiencias 3D más complejas. Muchas personas eligen bibliotecas como Phaser y Three.js para esto.
+
+Al crear aplicaciones de JavaScript, los desarrolladores a menudo utilizan frameworks y bibliotecas además de JavaScript simple. Ionic utiliza tecnologías web para crear aplicaciones móviles híbridas y aplicaciones web progresivas, mientras que React Native permite a los desarrolladores crear aplicaciones móviles con componentes de UI nativos. Ambos métodos permiten a los equipos utilizar sus habilidades de JavaScript en diferentes plataformas, pero no son lo mismo por dentro.
