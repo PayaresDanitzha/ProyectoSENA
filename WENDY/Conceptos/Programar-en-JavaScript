@@ -36,3 +36,29 @@ Las personas suelen utilizar funciones para manejadores de eventos, callbacks, u
 . para iterar sobre arreglos y otros valores iterables, usa for…of.
 
 Además, los métodos de arreglo como .map(), .filter() y .reduce() te permiten trabajar con y transformar datos de una manera más clara y limpia.
+
+# Ventajas y Desventajas
+
+- Ventajas: 
+
+. JavaScript funciona en todos los navegadores principales, por lo que tiene mucho apoyo. La mayoría de las personas apoyan las características básicas, pero se pueden usar herramientas de construcción para manejar características más nuevas cuando sean necesarias.
+
+. Los equipos pueden usar JavaScript tanto en el front-end como en el back-end con Node.js.
+
+. npm tiene una enorme cantidad de paquetes, frameworks y herramientas que se pueden utilizar para casi cualquier tipo de proyecto.
+
+. Nuevas herramientas facilitan probar cambios rápidamente mientras se están haciendo.
+
+. Hay mucha documentación, tutoriales y ayuda de otras personas de la comunidad.
+
+- Desventajas: 
+
+. Los problemas con los tipos pueden no aparecer hasta que el programa esté en funcionamiento debido al tipado dinámico, a menos que uses buenas pruebas o una capa tipada como TypeScript.
+
+. Si no mueves el trabajo costoso fuera del hilo principal o no lo haces de otra manera, la interfaz puede sentirse lenta en el navegador.
+
+. Para los principiantes, empaquetadores, linters, transpilers y herramientas de marco pueden ser demasiado difíciles de manejar.
+
+. Dependiendo de tu entorno de destino, características más nuevas del lenguaje o del navegador pueden necesitar aún polyfills o transpilation.
+
+. Cross-site scripting (XSS) and other problems can happen when you don’t handle untrusted input or update the DOM carefully.
