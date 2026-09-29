@@ -76,3 +76,7 @@ Usar el mismo lenguaje en toda la pila puede facilitar el desarrollo, especialme
 JavaScript también se utiliza en juegos que se ejecutan en un navegador web. Usando tecnologías como Canvas y WebGL, los desarrolladores pueden hacer tanto juegos de JavaScript 2D simples como experiencias 3D más complejas. Muchas personas eligen bibliotecas como Phaser y Three.js para esto.
 
 Al crear aplicaciones de JavaScript, los desarrolladores a menudo utilizan frameworks y bibliotecas además de JavaScript simple. Ionic utiliza tecnologías web para crear aplicaciones móviles híbridas y aplicaciones web progresivas, mientras que React Native permite a los desarrolladores crear aplicaciones móviles con componentes de UI nativos. Ambos métodos permiten a los equipos utilizar sus habilidades de JavaScript en diferentes plataformas, pero no son lo mismo por dentro.
+
+# Conclusion 
+
+En conclusión, JavaScript es el lenguaje de programación fundamental de la web, esencial para transformar páginas estáticas en experiencias interactivas, dinámicas y modernas. Su evolución y versatilidad gracias a Node.js le permiten operar tanto en el navegador (frontend) como en el servidor (backend), consolidándose como una herramienta imprescindible, de gran demanda laboral y con un ecosistema robusto que define el rumbo del desarrollo tecnológico actual.
