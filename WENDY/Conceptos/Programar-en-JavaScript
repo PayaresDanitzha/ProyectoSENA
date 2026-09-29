@@ -14,3 +14,25 @@ JavaScript también se puede usar fuera del navegador. Con entornos de ejecució
 Una característica más importante es el tipado dinámico de JavaScript. No tienes que especificar de antemano qué tipo va a ser una variable. Si tu código lo indica, una variable puede contener una cadena en un momento y un número en otro. JavaScript es fácil de aprender porque es flexible, pero si un proyecto crece sin buenas pruebas o verificación de tipos, también puede hacer que se cuelen errores.
 
 JavaScript también se basa en eventos. Un clic, una pulsación de tecla, un temporizador o el final de una solicitud de red son todas cosas que pueden hacer que se ejecute un código. Ese modelo funciona bien para interfaces web porque las aplicaciones siempre responden a la entrada del usuario y a los datos cambiantes.
+
+# Sintaxis y conceptos basicos
+
+La sintaxis de JavaScript es similar a la de C, con llaves, operadores bien conocidos y estructuras de control claras. Después de aprender algunos conceptos básicos de JavaScript, se siente fácil para muchos principiantes.
+
+- Variables, tipos de datos y operadores
+Para declarar una variable de JavaScript, usas var, let y const. Let y const son las opciones más comunes en el código moderno. Cuando un valor debe permanecer constante, usa const. Cuando debería cambiar, usa let.
+
+. Hay siete tipos básicos de datos en JavaScript: cadena, número, bigint, booleano, indefinido, simbolo y nulo.
+. El tipo objeto es lo que construye todo lo demás, como arreglos, funciones y objetos simples.
+
+- Funciones, bucles y condicionales
+JavaScript se centra en las funciones. Puedes usar la palabra clave function para declararlas, o puedes usar funciones flecha para escribirlas de manera más breve.
+
+Las personas suelen utilizar funciones para manejadores de eventos, callbacks, utilidades reutilizables y lógica para componentes.
+
+. para la lógica de bifurcación, usa if, else if y else
+. para condiciones de múltiples bifurcaciones, usa switch
+. para los bucles de JavaScript, usa for, while y do…while
+. para iterar sobre arreglos y otros valores iterables, usa for…of.
+
+Además, los métodos de arreglo como .map(), .filter() y .reduce() te permiten trabajar con y transformar datos de una manera más clara y limpia.
