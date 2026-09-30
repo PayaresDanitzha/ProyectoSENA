@@ -33,3 +33,29 @@ def calculadora():
             n2 = float(input("Digite su número 2 a multiplicar: "))
             multi = n1 * n2
             print(f"Su multiplicación es: {multi}")
+
+        elif resp == "4":
+            print("Su elección fue división")
+            print(" ")
+            n1 = float(input("Digite su número 1 a dividir: "))
+            print(" ")
+            n2 = float(input("Digite su número 2 a dividir: "))
+            if n2 != 0:
+                divi = n1 / n2
+                print(f"Su división es: {divi}")
+            else:
+                print("Error: No se puede dividir entre cero.")
+
+        else:
+            print("Gracias por preferirnos (^_^)")
+
+        print(" ")
+
+        respuesta = input("¿Quiere hacer otro ejercicio matemático? Diga si o no: ").strip().lower()
+        print(" ")
+        
+        if respuesta != "si":
+            print("¡Fue un gusto tenerte por aquí! Hasta luego.")
+            break
+
+calculadora()
