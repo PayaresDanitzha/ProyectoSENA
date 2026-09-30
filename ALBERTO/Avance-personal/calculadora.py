@@ -24,3 +24,12 @@ def calculadora():
             n2 = float(input("Digite su número 2 a restar: "))
             resta = n1 - n2
             print(f"Su resta es: {resta}")
+
+        elif resp == "3":
+            print("Su elección fue multiplicación")
+            print(" ")
+            n1 = float(input("Digite su número 1 a multiplicar: "))
+            print(" ")
+            n2 = float(input("Digite su número 2 a multiplicar: "))
+            multi = n1 * n2
+            print(f"Su multiplicación es: {multi}")
