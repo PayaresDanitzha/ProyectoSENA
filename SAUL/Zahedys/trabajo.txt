@@ -1,4 +1,0 @@
-void main() {
-  String D = " 45 ";
-  print("saul tiene " + D + " años ");
-}
