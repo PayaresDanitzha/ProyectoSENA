@@ -1,0 +1,17 @@
+import 'dart:io';
+
+void main(){
+    print("digite su nota numero 1");
+    String? A = stdin.readLineSync();
+    print("digite su nota numero 2");
+    String? Y = stdin.readLineSync();
+    print("digite su nota numero 3");
+    String? D = stdin.readLineSync();
+    print("digite su nota numero 4");
+    String? C = stdin.readLineSync();
+    print("digite su nota numero 5");
+    String? K = stdin.readLineSync();
+    double suma = (double.parse(A!) + double.parse(Y!) + double.parse(D!) + double.parse(C!) + double.parse(K!));
+    double promedio = (suma / 5);
+    print("su promedio de todas las notas es:  $promedio");
+}  

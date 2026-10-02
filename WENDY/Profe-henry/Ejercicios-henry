@@ -1,0 +1,32 @@
+## Ejercicio 1 en VISUAL BASIC
+
+Sub progama()
+    a = "20"
+    MsgBox ("Yo tengo " & a & " años")
+End sub
+
+## Ejercicio 2 en VISUAL BASIC 
+
+Sub programa()
+    a = inputBox("¿Cuantos años tienes?")
+    MsgBox ("Tu tienes " & a & " años")
+End sub
+
+## Ejercicio 3 en DARTPAD
+
+void main() {
+     String k = "20"
+     print ("Mi edad es " + k + " años")
+
+}
+
+## Ejercicio 4 en JavaScript
+
+function main() {
+     let k = " 20";
+     consolate.log("Mi edad es " + k + " años");
+}
+
+main();
+
+En java "let" se puede remplazar por "const" en resumen, en este ejercicio se declara una variable de tipo string que contiene la edad "20"- luego, mediante system. out-printin() y el operador +, se concatena la variable con otros textos para mostrar en pantalla el mensaje "mi edad es 20 años".

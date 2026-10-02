@@ -1,0 +1,19 @@
+Algoritmo vectores_para_saber_si_Es_capicua
+Definir nume Como Entero
+	Dimension vec[10]
+	para A = 0 Hasta 9 con paso 1 Hacer
+		Escribir "digite numero: " A + 1 
+		leer n
+FinPara
+cap = Verdadero
+Para m = 0 hasta 4 con paso 1 Hacer
+	si (vec[A] <> vec[9 - A])
+		cap = Falso
+	FinSi
+FinPara
+si (cap = Verdadero)
+	Escribir "el numero es capicua"
+SiNo
+	Escribir "el numero no es capicua"
+FinSi
+FinAlgoritmo

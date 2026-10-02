@@ -1,0 +1,10 @@
+Sub practica()
+
+    persona = InputBox("Como se llama la persona?:")
+
+    age = InputBox("Cuantos años tiene la persona?:")
+
+    MsgBox (chica & " tiene " & age & " años")
+
+End Sub 
+

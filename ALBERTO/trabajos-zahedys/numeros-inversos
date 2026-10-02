@@ -1,0 +1,10 @@
+Algoritmo sin_titulo
+	Dimension num[10]
+	para A = 0 hasta 9 con paso 1 Hacer
+		Escribir "digite un numero"
+		leer num[A]
+	FinPara
+	para j = 9 hasta 0 Con Paso -1 Hacer
+		Escribir "los numeros inversos son num[" j "]" num[j]
+	FinPara
+FinAlgoritmo
