@@ -1,0 +1,15 @@
+Algoritmo sin_titulo
+	Escribir "digite numero"
+	leer n
+	espar(n)
+FinAlgoritmo
+
+SubAlgoritmo espar(k)
+	si k mod 2 = 0 Entonces
+		Escribir "el numero es par"
+	SiNo
+	Escribir "el numero no es par"
+FinSi
+escribir k mod 2 
+FinSubAlgoritmo
+	
