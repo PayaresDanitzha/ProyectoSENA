@@ -12,6 +12,4 @@ while True:
   elif login_username != username and login_password == password:
     print("el usuario ingresado es incorrecto")
   else:
-       print("el usuario y la contraseña ingresados son incorrectos")
-
-
+    print("el usuario y la contraseña ingresados son incorrectos")
