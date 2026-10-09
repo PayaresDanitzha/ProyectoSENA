@@ -1,0 +1,12 @@
+Sub main()
+    MsgBox ("Vamos a calcular el promedio de cinco notas con Visual Basic")
+    
+    nota1 = CDbl(InputBox("Ingrese la primera nota:"))
+    nota2 = CDbl(InputBox("Ingrese la segunda nota:"))
+    nota3 = CDbl(InputBox("Ingrese la tercera nota:"))
+    nota4 = CDbl(InputBox("Ingrese la cuarta nota:"))
+    nota5 = CDbl(InputBox("Ingrese la quinta nota:"))
+    
+    promedio = (nota1 + nota2 + nota3 + nota4 + nota5) / 5
+    MsgBox ("El promedio de las cinco notas es:" & promedio)
+End Sub
