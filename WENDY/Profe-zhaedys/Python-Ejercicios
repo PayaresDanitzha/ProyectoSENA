@@ -8,3 +8,19 @@ if dineroc >= libro:
     print("El libro fue comprado")
 else: 
     print("No tiene dinero suficiente para comprar el libro")
+
+# Ejercicio 2 
+
+preciomateria = float(input("¿Cual es el precio de una materia?"))
+materias = int(input("¿Cuantas materias quiere matricular?"))
+tpagar = (preciomateria * materias)
+print(tpagar)
+
+promedio = float(input("¿Cual fue su promedio?"))
+
+if promedio >= 4.5:
+   tpagar1 = tpagar - float(0.25)
+   print("El total a pagar del estudiante si cumple con el promedio del descuento es:" , tpagar1)
+else: 
+   tpagar2 = tpagar + float(0.10)
+   print("El total a pagar del estudiante sin descuento y con el iva es:" , tpagar2)
