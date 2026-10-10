@@ -24,3 +24,22 @@ if promedio >= 4.5:
 else: 
    tpagar2 = tpagar + float(0.10)
    print("El total a pagar del estudiante sin descuento y con el iva es:" , tpagar2)
+
+# Ejercicio 3 
+
+valor = float(input("¿Cuanto vale 1 entrada al CIRCUS INTREPIDOS?"))
+numeroentradas = int(input("¿Cunatas entradas desea comprar? (Tenga en cuenta que max. 4 entradas)"))
+
+if numeroentradas == 2:
+   tpagar1 = (valor * 2) - float(0.10)
+   print("El total a pagar por estas entradas es", tpagar1)
+elif numeroentradas == 3:
+   tpagar2 = (valor * 3) - float(0.15)
+   print("El total a pagar por estas entradas es", tpagar2)
+elif numeroentradas == 4:
+   tpagar3 = (valor * 4) - float(0.20)
+   print("El total a pagar por estas entradas es", tpagar3)
+elif numeroentradas >= 5:
+   print("Esta cantidad de entradas no puede comprar")
+else:
+   print("El total a pagar es:" , valor)
