@@ -1,0 +1,67 @@
+# Ejercicio 1 
+
+dineroc = float(input("Digite su dinero disponible"))
+libro = 25.000
+
+if dineroc >= libro:
+    total = dineroc - libro
+    print("El libro fue comprado")
+else: 
+    print("No tiene dinero suficiente para comprar el libro")
+
+# Ejercicio 2 
+
+preciomateria = float(input("¿Cual es el precio de una materia?"))
+materias = int(input("¿Cuantas materias quiere matricular?"))
+tpagar = (preciomateria * materias)
+print(tpagar)
+
+promedio = float(input("¿Cual fue su promedio?"))
+
+if promedio >= 4.5:
+   tpagar1 = tpagar - float(0.25)
+   print("El total a pagar del estudiante si cumple con el promedio del descuento es:" , tpagar1)
+else: 
+   tpagar2 = tpagar + float(0.10)
+   print("El total a pagar del estudiante sin descuento y con el iva es:" , tpagar2)
+
+# Ejercicio 3 
+
+valor = float(input("¿Cuanto vale 1 entrada al CIRCUS INTREPIDOS?"))
+numeroentradas = int(input("¿Cunatas entradas desea comprar? (Tenga en cuenta que max. 4 entradas)"))
+
+if numeroentradas == 2:
+   tpagar1 = (valor * 2) - float(0.10)
+   print("El total a pagar por estas entradas es", tpagar1)
+elif numeroentradas == 3:
+   tpagar2 = (valor * 3) - float(0.15)
+   print("El total a pagar por estas entradas es", tpagar2)
+elif numeroentradas == 4:
+   tpagar3 = (valor * 4) - float(0.20)
+   print("El total a pagar por estas entradas es", tpagar3)
+elif numeroentradas >= 5:
+   print("Esta cantidad de entradas no puede comprar")
+else:
+   print("El total a pagar es:" , valor)
+
+# Ejercicio 4 
+
+nota = float(input("Ingrese la nota del estudiante (0-20):"))
+
+if nota <0 or nota > 20:
+   print("Error: la nota debe estar entre 0 y 20")
+elif nota == 20:
+   print("Categoria: Sobresaliente")
+elif nota == 19:
+   print("Categortia: Distinguido")
+elif nota >= 17:
+   print("Categoria: Muy bueno")
+elif nota == 16:
+   print("Categoria: Bueno")
+elif nota >= 12:
+   print("Categoria: Regular")
+elif nota >= 11:
+   print("Categoria: Aprobado")
+
+else: 
+   print("Categoria: Reprobado")
