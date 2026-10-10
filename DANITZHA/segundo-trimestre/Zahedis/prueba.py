@@ -32,10 +32,14 @@ def mostrar_lista():
         print("La lista de tareas no tiene nada agregado aún")
     else:
         for posicion, tarea in enumerate(tareas, start=1):
-            print(f"{posicion}. Titulo: {tarea['titulo']} | Descripción: {tarea['descripcion']} | Estado: {tarea['estado']}")
+            print(f"{posicion}. Titulo: {tarea['titulo']} | Estado: {tarea['estado']}")
 
 def completar_tarea():
     mostrar_lista()
+    respuesta = int(input("¿Que número de tarea quieres completar?: "))
+    respuesta = respuesta - 1
+    # if 0 <= respuesta < len(tareas):
+        
 
 
 
