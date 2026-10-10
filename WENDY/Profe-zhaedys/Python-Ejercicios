@@ -43,3 +43,25 @@ elif numeroentradas >= 5:
    print("Esta cantidad de entradas no puede comprar")
 else:
    print("El total a pagar es:" , valor)
+
+# Ejercicio 4 
+
+nota = float(input("Ingrese la nota del estudiante (0-20):"))
+
+if nota <0 or nota > 20:
+   print("Error: la nota debe estar entre 0 y 20")
+elif nota == 20:
+   print("Categoria: Sobresaliente")
+elif nota == 19:
+   print("Categortia: Distinguido")
+elif nota >= 17:
+   print("Categoria: Muy bueno")
+elif nota == 16:
+   print("Categoria: Bueno")
+elif nota >= 12:
+   print("Categoria: Regular")
+elif nota >= 11:
+   print("Categoria: Aprobado")
+
+else: 
+   print("Categoria: Reprobado")
