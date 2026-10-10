@@ -1,0 +1,10 @@
+# Ejercicio 1 
+
+dineroc = float(input("Digite su dinero disponible"))
+libro = 25.000
+
+if dineroc >= libro:
+    total = dineroc - libro
+    print("El libro fue comprado")
+else: 
+    print("No tiene dinero suficiente para comprar el libro")
