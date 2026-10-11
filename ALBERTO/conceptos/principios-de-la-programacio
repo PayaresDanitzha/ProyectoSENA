@@ -14,3 +14,5 @@ El salto conceptual hacia la informática moderna lo dieron el matemático **Cha
 
 ## 3. La era electrónica y el software (Década de 1940)
 Durante la Segunda Guerra Mundial y los años posteriores, la programación pasó de los engranajes mecánicos a la electricidad con computadoras como la **ENIAC**. Al principio, programar requería conectar cables físicamente en tableros y usar lenguaje de máquina (binario). Poco después, pioneras como **Grace Hopper** crearon el primer compilador, permitiendo escribir instrucciones en un lenguaje más cercano al humano que luego se traducía al sistema de la computadora, abriendo paso a los lenguajes de programación modernos.
+
+**En resumen:** La programación comenzó cuando la humanidad dejó de construir máquinas destinadas a una sola tarea y empezó a idear mecanismos que pudieran **leer instrucciones variables para resolver cualquier tipo de problema lógico o matemático**.
