@@ -11,6 +11,3 @@ El origen técnico se remonta a **Joseph Marie Jacquard**, quien inventó un **t
 El salto conceptual hacia la informática moderna lo dieron el matemático **Charles Babbage** y la científica **Ada Lovelace**:
 * **Babbage** diseñó la *Máquina Analítica*, el plano teórico de la primera computadora de propósito general.
 * **Lovelace** entendió que esta máquina podía procesar más que solo números. Añadió notas personales a un texto sobre el invento que incluían un **método detallado para calcular los números de Bernoulli** empleando las tarjetas perforadas. Este conjunto de instrucciones secuenciales es reconocido universalmente como el **primer programa informático de la historia**, lo que convierte a Ada Lovelace en la primera programadora del mundo.
-
-## 3. La era electrónica y el software (Década de 1940)
-Durante la Segunda Guerra Mundial y los años posteriores, la programación pasó de los engranajes mecánicos a la electricidad con computadoras como la **ENIAC**. Al principio, programar requería conectar cables físicamente en tableros y usar lenguaje de máquina (binario). Poco después, pioneras como **Grace Hopper** crearon el primer compilador, permitiendo escribir instrucciones en un lenguaje más cercano al humano que luego se traducía al sistema de la computadora, abriendo paso a los lenguajes de programación modernos.
