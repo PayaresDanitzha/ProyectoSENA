@@ -16,3 +16,18 @@ El salto conceptual hacia la informática moderna lo dieron el matemático **Cha
 Durante la Segunda Guerra Mundial y los años posteriores, la programación pasó de los engranajes mecánicos a la electricidad con computadoras como la **ENIAC**. Al principio, programar requería conectar cables físicamente en tableros y usar lenguaje de máquina (binario). Poco después, pioneras como **Grace Hopper** crearon el primer compilador, permitiendo escribir instrucciones en un lenguaje más cercano al humano que luego se traducía al sistema de la computadora, abriendo paso a los lenguajes de programación modernos.
 
 **En resumen:** La programación comenzó cuando la humanidad dejó de construir máquinas destinadas a una sola tarea y empezó a idear mecanismos que pudieran **leer instrucciones variables para resolver cualquier tipo de problema lógico o matemático**.
+
+### Ada Lovelace (1815–1852)
+Es reconocida universalmente como la **primera programadora de la historia**. Diseñó en 1843 el primer algoritmo para la Máquina Analítica de Charles Babbage con el fin de calcular los números de Bernoulli, demostrando que las máquinas podían procesar más que simples números.
+
+### Las programadoras de la ENIAC (Década de 1940)
+Un equipo de seis matemáticas expertas conformado por **Jean Jennings Bartik, Betty Holberton, Kathleen McNulty, Marlyn Wescoff, Frances Bilas y Ruth Lichterman** programó la primera computadora digital electrónica de la historia. Lo hacían de forma puramente manual, conectando cables y configurando miles de interruptores físicos.
+
+### Grace Hopper (1906–1992)
+Pionera de la computación que trabajó en la máquina Harvard Mark I y creó el **primer compilador de la historia**. Este invento permitió traducir el lenguaje humano a código de máquina, sentando las bases para el desarrollo de COBOL y los lenguajes de programación modernos.
+
+### Alan Turing (1912–1954)
+Padre de la informática teórica que formalizó los conceptos de algoritmo y computación con su famosa "Máquina de Turing". Durante y después de la Segunda Guerra Mundial, programó y diseñó la *Pilot ACE*, una de las primeras computadoras capaces de almacenar programas en su memoria interna.
+
+### John von Neumann (1903–1957)
+Matemático fundamental que diseñó la arquitectura de computadoras que utilizamos hasta el día de hoy. Coescribió los primeros programas complejos en código binario para la computadora EDVAC e introdujo el concepto de almacenar los datos y las instrucciones de programación en el mismo espacio de memoria.
