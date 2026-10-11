@@ -32,14 +32,21 @@ def mostrar_lista():
         print("La lista de tareas no tiene nada agregado aún")
     else:
         for posicion, tarea in enumerate(tareas, start=1):
-            print(f"{posicion}. Titulo: {tarea['titulo']} | Estado: {tarea['estado']}")
+            print(f"{posicion}. Titulo: {tarea['titulo']} | Descripción: {tarea['descripcion']} | Estado: {tarea['estado']}")
 
 def completar_tarea():
     mostrar_lista()
     respuesta = int(input("¿Que número de tarea quieres completar?: "))
-    respuesta = respuesta - 1
-    # if 0 <= respuesta < len(tareas):
-        
+    indice = respuesta - 1
+    try:
+        if 0 <= respuesta < len(tareas):
+            nuevo_estado = "Completada"
+            tareas[indice]['estado'] = nuevo_estado
+            print(f"\n✅ ¡El estado de '{tareas[indice]['titulo']}' cambió a [{nuevo_estado}]!")
+        else:
+                print("\n❌ Error: El número de tarea ingresado no existe.")
+    except ValueError:
+        print("\n❌ Error: Debe ingresar un número entero válido.")
 
 
 
