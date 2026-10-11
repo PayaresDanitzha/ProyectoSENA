@@ -6,3 +6,8 @@ La evolución que dio inicio a esta ciencia se resume en tres hitos fundamentale
 
 ## 1. El almacenamiento de datos (1801)
 El origen técnico se remonta a **Joseph Marie Jacquard**, quien inventó un **telar mecánico que utilizaba tarjetas perforadas**. Los agujeros en las tarjetas le decían a la máquina qué hilos levantar para tejer patrones específicos de forma automática. Este concepto introdujo la idea de introducir "instrucciones externas" para cambiar el comportamiento de una máquina sin tener que reconstruirla.
+
+## 2. El primer algoritmo de la historia (1843)
+El salto conceptual hacia la informática moderna lo dieron el matemático **Charles Babbage** y la científica **Ada Lovelace**:
+* **Babbage** diseñó la *Máquina Analítica*, el plano teórico de la primera computadora de propósito general.
+* **Lovelace** entendió que esta máquina podía procesar más que solo números. Añadió notas personales a un texto sobre el invento que incluían un **método detallado para calcular los números de Bernoulli** empleando las tarjetas perforadas. Este conjunto de instrucciones secuenciales es reconocido universalmente como el **primer programa informático de la historia**, lo que convierte a Ada Lovelace en la primera programadora del mundo.
