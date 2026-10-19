@@ -1,8 +1,9 @@
 void main(){
-  Persona persona = Persona();
-
 for (int i = 0; i < 1500; i++){
+  Persona persona = new Persona();
   print(persona);
   }
 }
-class Persona{}
+class Persona{
+  String? nombre;
+}
