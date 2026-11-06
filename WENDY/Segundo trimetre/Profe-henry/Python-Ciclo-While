@@ -1,0 +1,63 @@
+contador = 0
+numero = int(input("Ingrese un numero positivo: "))
+
+while (numero >= 0):
+    contador += 1
+    numero = int(input("Ingrese otro numero: "))
+    
+print("Ingreso un numero negativo, has finalizado")
+print("La cantidad de numeros inducidos es: ", contador)
+
+# Segundo ejercicio: 
+
+alumnomayor = 0 
+alumnoalto = 0 
+sumaedades = 0 
+sumaalumnos = 0 
+sumaalturas = 0 
+
+while sumaedades < 100:
+    edad = int(input("Digite su edad: "))
+    altura = float(input("Digite su altura: "))
+    
+    sumaedades += edad
+    alumnoalto += altura
+    sumaalumnos += 1
+    sumaalturas += altura
+    
+    if edad >= 18:
+        alumnomayor += 1
+    if altura > 1.75:
+        alumnoalto += 1 
+if sumaalumnos > 0:
+    edadpromedio = sumaedades / sumaalumnos
+    alturapromedio = alumnoalto / sumaalumnos
+
+print(f"La edad promedio es: {edadpromedio}") 
+print(f"La altura promedio es: {alturapromedio}")
+print("La cantidad de alumnos mayores es: ", alumnomayor)
+print("La cantidad de alumnos que miden mas de 1.75 son:", alumnoalto)
+
+# Tercer ejercicio 
+
+total_factura1 = 0
+total_litros = 0 
+facturas_mayores = 0 
+total_facturado = 0 
+
+while total_facturado < 1000000:
+    codigo = int(input("Digite el codigo del articulo: "))
+    cantidad_litros = float(input("Digite la cantidad de litro del articulo"))
+    precio_litro = float(input("Digite el precio del litro"))
+    
+    total_factura1 = cantidad_litros * precio_litro
+    total_facturado += total_factura1
+    
+    if codigo == 1:
+        total_litros += cantidad_litros
+    if total_factura1 > 3000000:
+        facturas_mayores += 1 
+print("Cantidad de litros vendido del articulo 1 es: ", total_litros)
+print("Facturacion total: ", total_facturado)
+print("Facturas mayores de 3.000.000:", facturas_mayores)
+
