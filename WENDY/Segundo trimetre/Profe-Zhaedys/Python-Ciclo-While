@@ -60,4 +60,3 @@ while total_facturado < 1000000:
 print("Cantidad de litros vendido del articulo 1 es: ", total_litros)
 print("Facturacion total: ", total_facturado)
 print("Facturas mayores de 3.000.000:", facturas_mayores)
-

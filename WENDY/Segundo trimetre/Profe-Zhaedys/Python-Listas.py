@@ -51,4 +51,3 @@ for i in range(4, -1, -1):
         print("Felicidades! aprobaste:" , asignatura[i])
 
 print("Asignaturas aprobadas: ", asignatura)
-
