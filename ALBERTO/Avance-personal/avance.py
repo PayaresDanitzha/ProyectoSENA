@@ -17,7 +17,7 @@ while resp == "si":
         if aux_pre == "no":
             for y in range(cont):
                  pre = int(input(f"ingrese el precio de la fruta {fruta}: "))
-                 aux_pre = input(f"el precio de la fruta {fruta} esta bien? el precio es {pre} si esta bien ponga si, si esta mal ponga no: ")
+                 aux_pre = input(f"el precio de la fruta {fruta} esta bien? el precio es {pre} si esta bien ponga si, si esta mal ponga no: ").lower
                  if aux_pre == "si":
                      frutas.append(fruta) = pre
                      break
