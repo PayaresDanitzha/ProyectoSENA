@@ -14,10 +14,12 @@ while resp == "si":
     elif aux == "si":
         pre = int(input(f"ingrese el precio de la fruta {fruta}: "))
         aux_pre = input(f"el precio de la fruta {fruta} esta bien? el precio es {pre} si esta bien ponga si, si esta mal ponga no: ").lower
+        resp = input("quiere agregar mas productos? :").lower()
         if aux_pre == "no":
             for y in range(cont):
                  pre = int(input(f"ingrese el precio de la fruta {fruta}: "))
                  aux_pre = input(f"el precio de la fruta {fruta} esta bien? el precio es {pre} si esta bien ponga si, si esta mal ponga no: ").lower()
+                 resp = input("quiere agregar mas productos? :").lower()
                  if aux_pre == "si":
                      precio.append(pre)
                      break
