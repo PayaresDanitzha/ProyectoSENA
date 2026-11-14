@@ -28,3 +28,4 @@ while resp == "si":
             if aux == "si":
                 frutas.append(fruta)
                 break
+lista = list(zip(frutas, precio))
