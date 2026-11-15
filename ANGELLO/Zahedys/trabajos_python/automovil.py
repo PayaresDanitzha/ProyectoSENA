@@ -1,0 +1,23 @@
+print("Ford")
+print("estados unidos")
+print("$10.000")
+print("con impuesto ",((10000*15)/100)+ 10000)
+print("")
+
+print("BMW")
+print("alemania")
+print("$20.000")
+print("con impuesto ",((20000*33)/100)+ 20000)
+print("")
+
+print("Tsubaru")
+print("Japon")
+print("$25.000")
+print("con impuesto ",((25000*40)/100)+ 25000)
+print("")
+
+print("Ferrari")
+print("italia")
+print("$50.000")
+print("con impuesto ",((50000*23)/100)+ 50000)
+print("")
